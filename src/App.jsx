@@ -124,9 +124,9 @@ const App = () => {
           {/* Visual / Image Block */}
           <div className="bg-white p-4 shadow-sm border border-gray-200">
              <div className="aspect-[4/3] bg-gray-200 mb-3 relative overflow-hidden grayscale hover:grayscale-0 transition-all duration-500">
-               {/* Updated Image: Storm over NYC / Empire State Building vibe */}
+               {/* Updated Image: Using local file picture.jpg */}
                <img 
-                 src="https://images.unsplash.com/photo-1510279770292-4b34de9f5c23?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                 src="/picture.jpg" 
                  alt="Storm clouds over skyscraper" 
                  className="w-full h-full object-cover"
                />
