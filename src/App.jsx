@@ -9,7 +9,7 @@ const App = () => {
       
       {/* --- HEADER SECTION --- */}
       <header className="border-b-4 border-double border-black bg-white pt-4 pb-2 px-4 md:px-8">
-        {/* Top Bar: Date and Weather/Vol info */}
+        {/* Top Bar: Date and Vol info */}
         <div className="flex flex-col md:flex-row justify-between items-center text-xs md:text-sm font-bold uppercase tracking-widest border-b border-black pb-2 mb-4 font-sans text-gray-600">
           <div className="flex items-center gap-4">
             <span>Vol. 1, Issue 1</span>
@@ -123,8 +123,8 @@ const App = () => {
           
           {/* Visual / Image Block */}
           <div className="bg-white p-4 shadow-sm border border-gray-200">
-             <div className="aspect-[4/3] bg-gray-200 mb-3 relative overflow-hidden grayscale hover:grayscale-0 transition-all duration-500">
-               {/* Updated Image: Using local file picture.jpg */}
+             <div className="aspect-[4/3] bg-gray-200 mb-3 relative overflow-hidden transition-all duration-500">
+               {/* Image reference is now correct for local public folder. Grayscale removed for better visibility if loading fails. */}
                <img 
                  src="/picture.jpg" 
                  alt="Storm clouds over skyscraper" 
