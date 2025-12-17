@@ -17,7 +17,7 @@ const App = () => {
             <span>Manhattan, N.Y.</span>
           </div>
           <div className="mt-2 md:mt-0">
-            Wednesday, July 5, 2006
+            Wednesday, December 14, 2025
           </div>
         </div>
 
@@ -26,7 +26,7 @@ const App = () => {
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight uppercase" style={{ fontFamily: '"Playfair Display", serif' }}>
             The Olympian Times
           </h1>
-          <p className="text-sm md:text-base italic mt-2 font-sans text-gray-500">"All the News That's Fit to Print (and some that isn't)"</p>
+          <p className="text-sm md:text-base italic mt-2 font-sans text-gray-500">"All the myths are too real to ignore"</p>
         </div>
 
         {/* Navigation Bar */}
@@ -203,7 +203,7 @@ const App = () => {
 
         </div>
         <div className="max-w-7xl mx-auto px-4 md:px-8 mt-12 pt-8 border-t border-gray-800 text-center text-xs text-gray-600 font-sans uppercase tracking-wider">
-          © 2006 The Olympian Times Media Group. All Rights Reserved.
+          © 2025 The Olympian Times Media Group. All Rights Reserved.
         </div>
       </footer>
 
