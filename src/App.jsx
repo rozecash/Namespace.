@@ -17,7 +17,7 @@ const App = () => {
             <span>Manhattan, N.Y.</span>
           </div>
           <div className="mt-2 md:mt-0">
-            Wednesday, December 14, 2025
+            Wednesday, December 17, 2025
           </div>
         </div>
 
