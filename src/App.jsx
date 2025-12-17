@@ -12,7 +12,7 @@ const App = () => {
         {/* Top Bar: Date and Vol info */}
         <div className="flex flex-col md:flex-row justify-between items-center text-xs md:text-sm font-bold uppercase tracking-widest border-b border-black pb-2 mb-4 font-sans text-gray-600">
           <div className="flex items-center gap-4">
-            <span>Vol. 1, Issue 1</span>
+            <span>Issue 1</span>
             <span>•</span>
             <span>Manhattan, N.Y.</span>
           </div>
